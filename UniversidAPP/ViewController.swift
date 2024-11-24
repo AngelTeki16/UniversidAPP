@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SplashViewController.swift
 //  UniversidAPP
 //
 //  Created by Angel Duarte on 23/11/24.

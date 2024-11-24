@@ -9,21 +9,51 @@
 /* Begin PBXBuildFile section */
 		BFAB90D42CF21A6D005B4FB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90D32CF21A6D005B4FB7 /* AppDelegate.swift */; };
 		BFAB90D62CF21A6D005B4FB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90D52CF21A6D005B4FB7 /* SceneDelegate.swift */; };
-		BFAB90D82CF21A6D005B4FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90D72CF21A6D005B4FB7 /* ViewController.swift */; };
 		BFAB90DB2CF21A6D005B4FB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB90D92CF21A6D005B4FB7 /* Main.storyboard */; };
 		BFAB90DD2CF21A6E005B4FB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAB90DC2CF21A6E005B4FB7 /* Assets.xcassets */; };
 		BFAB90E02CF21A6E005B4FB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAB90DE2CF21A6E005B4FB7 /* LaunchScreen.storyboard */; };
+		BFAB90EA2CF25671005B4FB7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90E92CF25671005B4FB7 /* Utils.swift */; };
+		BFAB90EC2CF256A9005B4FB7 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90EB2CF256A9005B4FB7 /* SplashViewController.swift */; };
+		BFAB90EE2CF25C56005B4FB7 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90ED2CF25C56005B4FB7 /* UIView + Extension.swift */; };
+		BFAB90F12CF25D00005B4FB7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90F02CF25D00005B4FB7 /* LoginViewController.swift */; };
+		BFAB90F32CF25D20005B4FB7 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90F22CF25D20005B4FB7 /* TextField.swift */; };
+		BFAB90F52CF25DE5005B4FB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90F42CF25DE5005B4FB7 /* ViewController.swift */; };
+		BFAB90F82CF25E45005B4FB7 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90F72CF25E45005B4FB7 /* AlertView.swift */; };
+		BFAB90FB2CF25F03005B4FB7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90FA2CF25F03005B4FB7 /* User.swift */; };
+		BFAB90FE2CF264A6005B4FB7 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90FD2CF264A6005B4FB7 /* RegistroViewController.swift */; };
+		BFAB91002CF28635005B4FB7 /* UIButton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB90FF2CF28635005B4FB7 /* UIButton + Extension.swift */; };
+		BFAB91032CF29E88005B4FB7 /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91022CF29E88005B4FB7 /* HomeTabBarController.swift */; };
+		BFAB91062CF29F68005B4FB7 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */; };
+		BFAB91092CF29F79005B4FB7 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91082CF29F79005B4FB7 /* PerfilViewController.swift */; };
+		BFAB910C2CF29F99005B4FB7 /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */; };
+		D007D13C6C94DC7F883767B6 /* Pods_UniversidAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A691E049D56EBDFE2CA007 /* Pods_UniversidAPP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17F675DA542CA3F6826338CB /* Pods-UniversidAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversidAPP.release.xcconfig"; path = "Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP.release.xcconfig"; sourceTree = "<group>"; };
+		67A691E049D56EBDFE2CA007 /* Pods_UniversidAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniversidAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB90D02CF21A6D005B4FB7 /* UniversidAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversidAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAB90D32CF21A6D005B4FB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFAB90D52CF21A6D005B4FB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFAB90D72CF21A6D005B4FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFAB90DA2CF21A6D005B4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFAB90DC2CF21A6E005B4FB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFAB90DF2CF21A6E005B4FB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFAB90E12CF21A6E005B4FB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAB90E92CF25671005B4FB7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		BFAB90EB2CF256A9005B4FB7 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BFAB90ED2CF25C56005B4FB7 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
+		BFAB90F02CF25D00005B4FB7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFAB90F22CF25D20005B4FB7 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		BFAB90F42CF25DE5005B4FB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFAB90F72CF25E45005B4FB7 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		BFAB90FA2CF25F03005B4FB7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BFAB90FD2CF264A6005B4FB7 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		BFAB90FF2CF28635005B4FB7 /* UIButton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton + Extension.swift"; sourceTree = "<group>"; };
+		BFAB91022CF29E88005B4FB7 /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		BFAB91082CF29F79005B4FB7 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesViewController.swift; sourceTree = "<group>"; };
+		EA0050BFBC2357E2C1966702 /* Pods-UniversidAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversidAPP.debug.xcconfig"; path = "Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D007D13C6C94DC7F883767B6 /* Pods_UniversidAPP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2025EA3DB4762D5DF0D2FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A691E049D56EBDFE2CA007 /* Pods_UniversidAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D64A07DB804FAA0B20AB974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA0050BFBC2357E2C1966702 /* Pods-UniversidAPP.debug.xcconfig */,
+				17F675DA542CA3F6826338CB /* Pods-UniversidAPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BFAB90C72CF21A6D005B4FB7 = {
 			isa = PBXGroup;
 			children = (
 				BFAB90D22CF21A6D005B4FB7 /* UniversidAPP */,
 				BFAB90D12CF21A6D005B4FB7 /* Products */,
+				5D64A07DB804FAA0B20AB974 /* Pods */,
+				1B2025EA3DB4762D5DF0D2FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +108,106 @@
 			children = (
 				BFAB90D32CF21A6D005B4FB7 /* AppDelegate.swift */,
 				BFAB90D52CF21A6D005B4FB7 /* SceneDelegate.swift */,
-				BFAB90D72CF21A6D005B4FB7 /* ViewController.swift */,
+				BFAB910A2CF29F87005B4FB7 /* Notificaciones */,
+				BFAB91072CF29F6D005B4FB7 /* Perfil */,
+				BFAB91042CF29F5C005B4FB7 /* Inicio  */,
+				BFAB91012CF29E70005B4FB7 /* Home */,
+				BFAB90FC2CF26497005B4FB7 /* Registro */,
+				BFAB90F92CF25EFA005B4FB7 /* Models */,
+				BFAB90F62CF25E33005B4FB7 /* CustomViews */,
+				BFAB90E82CF25666005B4FB7 /* Utils */,
+				BFAB90E72CF2563E005B4FB7 /* Splash */,
+				BFAB90EF2CF25CC8005B4FB7 /* Login */,
 				BFAB90D92CF21A6D005B4FB7 /* Main.storyboard */,
 				BFAB90DC2CF21A6E005B4FB7 /* Assets.xcassets */,
 				BFAB90DE2CF21A6E005B4FB7 /* LaunchScreen.storyboard */,
 				BFAB90E12CF21A6E005B4FB7 /* Info.plist */,
 			);
 			path = UniversidAPP;
+			sourceTree = "<group>";
+		};
+		BFAB90E72CF2563E005B4FB7 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90EB2CF256A9005B4FB7 /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		BFAB90E82CF25666005B4FB7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90E92CF25671005B4FB7 /* Utils.swift */,
+				BFAB90F22CF25D20005B4FB7 /* TextField.swift */,
+				BFAB90F42CF25DE5005B4FB7 /* ViewController.swift */,
+				BFAB90ED2CF25C56005B4FB7 /* UIView + Extension.swift */,
+				BFAB90FF2CF28635005B4FB7 /* UIButton + Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BFAB90EF2CF25CC8005B4FB7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90F02CF25D00005B4FB7 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BFAB90F62CF25E33005B4FB7 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90F72CF25E45005B4FB7 /* AlertView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		BFAB90F92CF25EFA005B4FB7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90FA2CF25F03005B4FB7 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFAB90FC2CF26497005B4FB7 /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB90FD2CF264A6005B4FB7 /* RegistroViewController.swift */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		BFAB91012CF29E70005B4FB7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB91022CF29E88005B4FB7 /* HomeTabBarController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BFAB91042CF29F5C005B4FB7 /* Inicio  */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */,
+			);
+			path = "Inicio ";
+			sourceTree = "<group>";
+		};
+		BFAB91072CF29F6D005B4FB7 /* Perfil */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB91082CF29F79005B4FB7 /* PerfilViewController.swift */,
+			);
+			path = Perfil;
+			sourceTree = "<group>";
+		};
+		BFAB910A2CF29F87005B4FB7 /* Notificaciones */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */,
+			);
+			path = Notificaciones;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFAB90E42CF21A6E005B4FB7 /* Build configuration list for PBXNativeTarget "UniversidAPP" */;
 			buildPhases = (
+				481A062A803F5E9C16D49C24 /* [CP] Check Pods Manifest.lock */,
 				BFAB90CC2CF21A6D005B4FB7 /* Sources */,
 				BFAB90CD2CF21A6D005B4FB7 /* Frameworks */,
 				BFAB90CE2CF21A6D005B4FB7 /* Resources */,
+				78B15F858CAF5DF620CCAD7C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +278,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		481A062A803F5E9C16D49C24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UniversidAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B15F858CAF5DF620CCAD7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFAB90CC2CF21A6D005B4FB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFAB90D82CF21A6D005B4FB7 /* ViewController.swift in Sources */,
+				BFAB90F12CF25D00005B4FB7 /* LoginViewController.swift in Sources */,
 				BFAB90D42CF21A6D005B4FB7 /* AppDelegate.swift in Sources */,
+				BFAB910C2CF29F99005B4FB7 /* NotificacionesViewController.swift in Sources */,
+				BFAB90F82CF25E45005B4FB7 /* AlertView.swift in Sources */,
 				BFAB90D62CF21A6D005B4FB7 /* SceneDelegate.swift in Sources */,
+				BFAB90F32CF25D20005B4FB7 /* TextField.swift in Sources */,
+				BFAB90EA2CF25671005B4FB7 /* Utils.swift in Sources */,
+				BFAB90EE2CF25C56005B4FB7 /* UIView + Extension.swift in Sources */,
+				BFAB90F52CF25DE5005B4FB7 /* ViewController.swift in Sources */,
+				BFAB90FB2CF25F03005B4FB7 /* User.swift in Sources */,
+				BFAB91092CF29F79005B4FB7 /* PerfilViewController.swift in Sources */,
+				BFAB91062CF29F68005B4FB7 /* InicioViewController.swift in Sources */,
+				BFAB90EC2CF256A9005B4FB7 /* SplashViewController.swift in Sources */,
+				BFAB90FE2CF264A6005B4FB7 /* RegistroViewController.swift in Sources */,
+				BFAB91032CF29E88005B4FB7 /* HomeTabBarController.swift in Sources */,
+				BFAB91002CF28635005B4FB7 /* UIButton + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +487,14 @@
 		};
 		BFAB90E52CF21A6E005B4FB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0050BFBC2357E2C1966702 /* Pods-UniversidAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6899DY74P7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversidAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +517,14 @@
 		};
 		BFAB90E62CF21A6E005B4FB7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F675DA542CA3F6826338CB /* Pods-UniversidAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6899DY74P7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversidAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
