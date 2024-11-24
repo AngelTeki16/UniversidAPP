@@ -59,7 +59,7 @@ class ProfileInfoView : UIView{
     perfilImage.addAnchorsAndSize(width: 46, height: 46, left: 0, top: 0, right: nil, bottom: nil)
     
     self.addSubview(perfilNombreLabel)
-    perfilNombreLabel.addAnchors(left: 0, top: 3, right: nil, bottom: nil , withAnchor: .left, relativeToView: perfilImage)
+    perfilNombreLabel.addAnchors(left: 10, top: 3, right: nil, bottom: nil , withAnchor: .left, relativeToView: perfilImage)
     
     self.addSubview(descripcionLabel)
     descripcionLabel.addAnchors(left: 10, top: nil, right: 0, bottom: nil, withAnchor: .left, relativeToView: perfilImage)
