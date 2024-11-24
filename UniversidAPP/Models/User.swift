@@ -6,13 +6,16 @@
 //
 
 import Foundation
+import UIKit
 
-struct User : Codable{
-  var name : String?
-  var email : String?
+struct User {
+  var name : String
+  var email : String
+  var descripcion : String
   var password : String?
   var id : Int?
   var role_id : Int?
-  var image_path : String?
+  var userPhoto : UIImage
+  var userPortada : UIImage
   var age : Int?
 }

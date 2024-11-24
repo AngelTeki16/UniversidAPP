@@ -9,6 +9,8 @@ import UIKit
 
 class LoginViewController: ViewController {
   
+  var sesionManager = SesionManager.shared
+  
   var imageIcon : UIImageView = {
     var image = UIImageView()
     image.image = UIImage(named: "icon")
@@ -86,13 +88,7 @@ class LoginViewController: ViewController {
     navigationController?.navigationBar.isHidden = true
     self.navigationController?.interactivePopGestureRecognizer?.isEnabled = false
   }
-  
-  override func viewWillAppear(_ animated: Bool) {
-    super.viewWillAppear(animated)
-    setUpNavigation()
-   
-  }
-  
+    
   func initUI(){
     let tapEnd = UITapGestureRecognizer(target: self, action: #selector(endEdit))
     view.addGestureRecognizer(tapEnd)
@@ -140,14 +136,23 @@ class LoginViewController: ViewController {
     let validatePass = pass.validateField()
     
     if validateUser && validatePass {
-      let userLog = User(email: user.text, password: pass.text)
       showAlert(type: .loading, title: "Iniciando sesión", message: "")
       
       DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) { [self] in
         deleteAlert()
+        guard let user = createUser() else { return }
+        sesionManager.setUser(user: user)
         showSuccessAlert()
       }
     }
+  }
+  
+  func createUser() -> User?{
+    guard let portadaImage = UIImage(named: "portada"),
+          let perfilImage = UIImage(named: "perfil") else { return nil }
+    let user = User(name: "Angel Duarte", email: "a@a.com", descripcion: "Máster Universitario en Desarrollo de Software para Dispositivos Móviles", password: "1234", id: 1, role_id: 0, userPhoto: perfilImage, userPortada: portadaImage, age: 27)
+    
+    return user
   }
   
   func showSuccessAlert(){

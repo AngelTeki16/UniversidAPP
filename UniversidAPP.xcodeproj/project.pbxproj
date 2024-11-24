@@ -26,6 +26,10 @@
 		BFAB91062CF29F68005B4FB7 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */; };
 		BFAB91092CF29F79005B4FB7 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91082CF29F79005B4FB7 /* PerfilViewController.swift */; };
 		BFAB910C2CF29F99005B4FB7 /* NotificacionesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */; };
+		BFAB910F2CF3C2E0005B4FB7 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB910E2CF3C2E0005B4FB7 /* PostTableViewCell.swift */; };
+		BFAB91112CF3C7BA005B4FB7 /* ProfileInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91102CF3C7BA005B4FB7 /* ProfileInfoView.swift */; };
+		BFAB91132CF3D1FD005B4FB7 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91122CF3D1FD005B4FB7 /* Post.swift */; };
+		BFAB91162CF3E6F6005B4FB7 /* SesionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAB91152CF3E6F6005B4FB7 /* SesionManager.swift */; };
 		D007D13C6C94DC7F883767B6 /* Pods_UniversidAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A691E049D56EBDFE2CA007 /* Pods_UniversidAPP.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,10 @@
 		BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
 		BFAB91082CF29F79005B4FB7 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
 		BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacionesViewController.swift; sourceTree = "<group>"; };
+		BFAB910E2CF3C2E0005B4FB7 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		BFAB91102CF3C7BA005B4FB7 /* ProfileInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoView.swift; sourceTree = "<group>"; };
+		BFAB91122CF3D1FD005B4FB7 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BFAB91152CF3E6F6005B4FB7 /* SesionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionManager.swift; sourceTree = "<group>"; };
 		EA0050BFBC2357E2C1966702 /* Pods-UniversidAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversidAPP.debug.xcconfig"; path = "Target Support Files/Pods-UniversidAPP/Pods-UniversidAPP.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +116,7 @@
 			children = (
 				BFAB90D32CF21A6D005B4FB7 /* AppDelegate.swift */,
 				BFAB90D52CF21A6D005B4FB7 /* SceneDelegate.swift */,
+				BFAB91142CF3E6DF005B4FB7 /* Managers */,
 				BFAB910A2CF29F87005B4FB7 /* Notificaciones */,
 				BFAB91072CF29F6D005B4FB7 /* Perfil */,
 				BFAB91042CF29F5C005B4FB7 /* Inicio  */,
@@ -166,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				BFAB90FA2CF25F03005B4FB7 /* User.swift */,
+				BFAB91122CF3D1FD005B4FB7 /* Post.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,6 +199,7 @@
 		BFAB91042CF29F5C005B4FB7 /* Inicio  */ = {
 			isa = PBXGroup;
 			children = (
+				BFAB910D2CF3BB46005B4FB7 /* SubViews */,
 				BFAB91052CF29F68005B4FB7 /* InicioViewController.swift */,
 			);
 			path = "Inicio ";
@@ -208,6 +219,23 @@
 				BFAB910B2CF29F99005B4FB7 /* NotificacionesViewController.swift */,
 			);
 			path = Notificaciones;
+			sourceTree = "<group>";
+		};
+		BFAB910D2CF3BB46005B4FB7 /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB910E2CF3C2E0005B4FB7 /* PostTableViewCell.swift */,
+				BFAB91102CF3C7BA005B4FB7 /* ProfileInfoView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		BFAB91142CF3E6DF005B4FB7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BFAB91152CF3E6F6005B4FB7 /* SesionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,10 +353,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAB91112CF3C7BA005B4FB7 /* ProfileInfoView.swift in Sources */,
 				BFAB90F12CF25D00005B4FB7 /* LoginViewController.swift in Sources */,
 				BFAB90D42CF21A6D005B4FB7 /* AppDelegate.swift in Sources */,
+				BFAB910F2CF3C2E0005B4FB7 /* PostTableViewCell.swift in Sources */,
 				BFAB910C2CF29F99005B4FB7 /* NotificacionesViewController.swift in Sources */,
 				BFAB90F82CF25E45005B4FB7 /* AlertView.swift in Sources */,
+				BFAB91162CF3E6F6005B4FB7 /* SesionManager.swift in Sources */,
 				BFAB90D62CF21A6D005B4FB7 /* SceneDelegate.swift in Sources */,
 				BFAB90F32CF25D20005B4FB7 /* TextField.swift in Sources */,
 				BFAB90EA2CF25671005B4FB7 /* Utils.swift in Sources */,
@@ -339,6 +370,7 @@
 				BFAB91062CF29F68005B4FB7 /* InicioViewController.swift in Sources */,
 				BFAB90EC2CF256A9005B4FB7 /* SplashViewController.swift in Sources */,
 				BFAB90FE2CF264A6005B4FB7 /* RegistroViewController.swift in Sources */,
+				BFAB91132CF3D1FD005B4FB7 /* Post.swift in Sources */,
 				BFAB91032CF29E88005B4FB7 /* HomeTabBarController.swift in Sources */,
 				BFAB91002CF28635005B4FB7 /* UIButton + Extension.swift in Sources */,
 			);

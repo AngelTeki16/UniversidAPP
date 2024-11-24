@@ -33,9 +33,16 @@ class ViewController : UIViewController,CustomAlertDelegate{
   func deleteAlert(){
     alert?.removeFromSuperview()
   }
+    
+  func setupNavigation() {
+    let appearance = UINavigationBarAppearance()
+    appearance.configureWithOpaqueBackground()
+    appearance.backgroundColor = .white
+    appearance.configureWithOpaqueBackground()
+    appearance.setBackIndicatorImage(UIImage(), transitionMaskImage: UIImage())
+    self.navigationController?.navigationBar.standardAppearance = appearance
+    self.navigationController?.navigationBar.scrollEdgeAppearance = self.navigationController?.navigationBar.standardAppearance
   
-  func setUpNavigation(){
-    navigationController?.navigationBar.isHidden = true
   }
     
   func setBackButton(){
